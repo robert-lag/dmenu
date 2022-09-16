@@ -24,4 +24,7 @@ See the man page for details.
 
 ## Additional features in this build
 
-- Colors from Xresources
+- Colors and font from Xresources
+- Mouse support
+- Custom lineheight (through config.h or -h option)
+- Password entries (through -P option)
