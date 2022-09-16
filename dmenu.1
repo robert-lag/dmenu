@@ -3,7 +3,7 @@
 dmenu \- dynamic menu
 .SH SYNOPSIS
 .B dmenu
-.RB [ \-bfivP ]
+.RB [ \-bfivcP ]
 .RB [ \-l
 .IR lines ]
 .RB [ \-h
@@ -14,6 +14,8 @@ dmenu \- dynamic menu
 .IR prompt ]
 .RB [ \-fn
 .IR font ]
+.RB [ \-bw
+.IR border-width ]
 .RB [ \-nb
 .IR color ]
 .RB [ \-nf
@@ -70,6 +72,9 @@ defines the prompt to be displayed to the left of the input field.
 .TP
 .BI \-fn " font"
 defines the font or font set used.
+.TP
+.BI \-bw " border-width"
+defines the width of the border around dmenu.
 .TP
 .BI \-nb " color"
 defines the normal background color.

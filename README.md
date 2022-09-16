@@ -6,7 +6,6 @@
 
 In order to build dmenu you need the Xlib header files.
 
-
 ## Installation
 
 Edit config.mk to match your local setup (dmenu is installed into
@@ -17,7 +16,6 @@ Afterwards enter the following command to build and install dmenu
 
     make clean install
 
-
 ## Running dmenu
 
 See the man page for details.
@@ -25,6 +23,9 @@ See the man page for details.
 ## Additional features in this build
 
 - Colors and font from Xresources
+- Transparent background
 - Mouse support
 - Custom lineheight (through config.h or -h option)
 - Password entries (through -P option)
+- Centering dmenu on screen
+- Border around dmenu
